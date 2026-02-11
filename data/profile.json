@@ -1,0 +1,34 @@
+{
+  "name": "Huanxue Li",
+  "headline": "Undergraduate Student",
+  "location": "China",
+  "avatar": "./assets/avatar.png",
+  "tags": ["Machine Learning", "Artificial Intelligence", "NLP", "LLMs"],
+  "summary": [
+    "He is an undergraduate student in the Department of Computer Science and Engineering at the University of New South Wales (UNSW). He is interested in machine learning, natural language processing, and large language models."
+  ],
+  "links": [
+    { "label": "GitHub", "url": "https://github.com/HuanxueL" },
+    { "label": "CV (PDF)", "url": "#" }
+  ],
+  "education": [
+    {
+      "school": "University of New South Wales (UNSW)",
+      "degree": "BAdvCompSci",
+      "field": "Computer Science",
+      "start": "2024",
+      "end": "2028",
+      "location": "Sydney, Australia",
+      "details": [
+        "Grade: Distinction"
+      ],
+      "links": [
+        { "label": "Lab", "url": "#" }
+      ]
+    }
+  ],
+  "contact": [
+    { "type": "Email", "label": "Email", "value": "z5635454@ad.unsw.edu.au", "url": "mailto:z5635454@ad.unsw.edu.au" },
+    { "type": "LinkedIn", "label": "LinkedIn", "value": "https://www.linkedin.com/in/huanxue-li-6a4357343/", "url": "https://www.linkedin.com/in/huanxue-li-6a4357343/" }
+  ]
+}

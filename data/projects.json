@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "title": "CSTF-Net: Cross-Modal Stock Trend Forecasting Network",
+      "description": "Developed a lightweight multimodal fusion framework integrating FinBERT-based news sentiment features, TCN-encoded financial time-series signals, and a correlation-enhanced technical indicator module for stock direction prediction. Constructed and evaluated the model on 84K aligned news–price samples from AAPL, MSFT, AMZN, and META under strict chronological splits. Benchmarked against LSTM, GRU, TCN, XGBoost, and LightGBM to validate performance improvements and robustness.",
+      "tags": [
+        "FinBERT",
+        "TCN",
+        "Multimodal Learning",
+        "Time Series Forecasting",
+        "XGBoost",
+        "LightGBM"
+      ],
+      "links": [
+        { "label": "Paper", "url": "#" },
+        { "label": "Code", "url": "#" }
+      ]
+    },
+    {
+      "title": "Deep Sentiment Analysis for Crude Oil Futures Prediction",
+      "description": "Collected and quantified large-scale social media and news data to investigate their predictive power on crude oil futures log returns. Fine-tuned FinBERT for sentiment extraction and integrated sentiment signals into Random Forest models to evaluate predictive performance. Designed controlled experiments comparing social media-only, news-only, and combined feature sets to analyze their relative contribution to forecasting accuracy.",
+      "tags": [
+        "FinBERT",
+        "Random Forest",
+        "Sentiment Analysis",
+        "Crude Oil Futures",
+        "Quantitative Finance"
+      ],
+      "links": [
+        { "label": "Project Report", "url": "#" }
+      ]
+    }
+  ]
+}
+

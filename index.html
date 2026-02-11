@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HuanxueL</title>
+    <meta name="description" content="HuanxueL 的个人主页：Education、Projects、Publications、Contact。" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+    <header class="site-header">
+      <div class="container header-bottom">
+        <nav class="site-nav" aria-label="主导航">
+          <a href="#about">About Me</a>
+          <a href="#education">Education</a>
+          <a href="#courses">Relevant Courses</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#projects">Projects</a>
+          <a href="#publications">Publications</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="site-main">
+      <section id="about" class="section">
+        <div class="container">
+          <div class="card card-module" data-module="about">
+            <div class="module-head">
+              <h2>About Me</h2>
+            </div>
+            <div class="module-body">
+              <div class="about-grid">
+                <div class="about-avatar" id="avatarSlot" aria-hidden="true"></div>
+                <div>
+                  <div class="about-name" id="nameSlot">—</div>
+                  <div class="about-headline" id="headlineSlot">—</div>
+                  <div class="about-location" id="locationSlot">—</div>
+                  <div class="about-email" id="emailSlot"></div>
+                  <div class="about-tags" id="tagsSlot"></div>
+                  <div class="about-summary" id="summarySlot"></div>
+                  <div class="about-links" id="quickLinksSlot"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="container">
+          <div class="card card-module" data-module="education">
+            <div class="module-head">
+              <h2>Education</h2>
+            </div>
+            <div class="module-body">
+              <div class="list list-rows" id="educationList"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="courses" class="section">
+        <div class="container">
+          <div class="card card-module" data-module="courses">
+            <div class="module-head">
+              <h2>Relevant Courses</h2>
+              <div class="module-tools">
+                <input class="input input-sm" id="coursesSearch" type="search" placeholder="搜索课程..." />
+              </div>
+            </div>
+            <div class="module-body">
+              <div class="chips" id="coursesChips"></div>
+              <div class="list list-rows" id="coursesList"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications" class="section">
+        <div class="container">
+          <div class="card card-module" data-module="certifications">
+            <div class="module-head">
+              <h2>Certifications</h2>
+            </div>
+            <div class="module-body">
+              <div class="list list-rows" id="certsList"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="card card-module" data-module="projects">
+            <div class="module-head">
+              <h2>Projects</h2>
+              <div class="module-tools">
+                <input class="input input-sm" id="projectsSearch" type="search" placeholder="搜索项目..." />
+              </div>
+            </div>
+            <div class="module-body">
+              <div class="chips" id="projectsChips"></div>
+              <div class="list list-rows" id="projectsGrid"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="publications" class="section">
+        <div class="container">
+          <div class="card card-module" data-module="publications">
+            <div class="module-head">
+              <h2>Publications</h2>
+              <div class="module-tools">
+                <input class="input input-sm" id="pubsSearch" type="search" placeholder="搜索论文..." />
+              </div>
+            </div>
+            <div class="module-body">
+              <div class="chips" id="pubsChips"></div>
+              <div class="list list-rows" id="pubsList"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="card card-module" data-module="contact">
+            <div class="module-head">
+              <h2>Contact</h2>
+            </div>
+            <div class="module-body">
+              <div class="contact-grid" id="contactGrid"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <div class="muted" id="footerLeft">© <span id="yearSlot"></span> HuanxueL</div>
+        <a class="muted" href="#about">Back to top</a>
+      </div>
+    </footer>
+
+    <script type="module" src="./assets/main.js"></script>
+  </body>
+</html>

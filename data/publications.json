@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "title": "Your Paper Title",
+      "authors": ["First Author", "HuanxueL", "Coauthor"],
+      "venue": "Conference / Journal",
+      "year": 2025,
+      "tags": ["Topic"],
+      "links": [
+        { "label": "PDF", "url": "#" },
+        { "label": "DOI", "url": "#" }
+      ]
+    }
+  ]
+}
